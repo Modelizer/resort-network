@@ -1,0 +1,44 @@
+[2020-09-19 12:23:51] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#5 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#6 /Users/mudassir/workspace/lumenite-network/resort-network/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2020-09-19 12:23:51] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /Users/mudassir/workspace/lumenite-network/resort-network/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 /Users/mudassir/workspace/lumenite-network/resort-network/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2020-09-19 12:24:04] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#5 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#6 /Users/mudassir/workspace/lumenite-network/resort-network/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2020-09-19 12:24:04] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /Users/mudassir/workspace/lumenite-network/resort-network/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /Users/mudassir/workspace/lumenite-network/resort-network/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 /Users/mudassir/workspace/lumenite-network/resort-network/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
